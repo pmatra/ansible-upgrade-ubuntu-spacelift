@@ -2,5 +2,6 @@
 plugin: amazon.aws.aws_ec2
 regions:
   - us-east-2
-hostnames:
-  - name: 'ip-172-31-2-10.us-east-2.compute.internal'
+filters:
+  tag-key: ddb-proxy
+  instance-state-name: running
