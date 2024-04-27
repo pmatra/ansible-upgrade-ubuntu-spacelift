@@ -3,5 +3,4 @@ plugin: amazon.aws.aws_ec2
 regions:
   - us-east-2
 hostnames:
-  - tag:Name=ddb-proxy
-  - ec2-3-131-66-226.us-east-2.compute.amazonaws.com
+  - 172.31.2.10
