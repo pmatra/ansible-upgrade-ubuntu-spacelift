@@ -3,7 +3,4 @@ plugin: amazon.aws.aws_ec2
 regions:
   - us-east-2
 hostnames:
-  compose:
-  # Use the private IP address to connect to the host
-  # (note: this does not modify inventory_hostname, which is set via I(hostnames))
-  ansible_host: 172.31.14.152
+  -172.31.14.152
